@@ -1,0 +1,501 @@
+id,age,sex,bmi,marital_status,smoker,country,alcohol,allergies,medicines,illness_history,charges
+1000,85,Female,29,Common-Law,0,Puerto Rico,0,0,Atenolol,Autoimmune,154.31
+1001,45,Male,24,Divorced,0,Martinique,0,0,Cialis,Oncology,148.14
+1002,38,Female,25,Divorced,0,South Africa,1,0,Plavix,Endocrine,140.77
+1003,17,Male,18,Single,0,Belarus,1,0,Atenolol,Neurological,141.33
+1004,79,Female,34,Married,1,Algeria,1,1,None,Endocrine,161.64
+1005,58,Male,32,Single,0,Poland,1,1,Doxycycline Hyclate,Autoimmune,158.96
+1006,86,Male,43,Single,1,Sweden,0,1,Ventolin HFA,DigestiveSystem,148.49
+1007,28,Female,40,Divorced,0,Bulgaria,0,1,Namenda,Endocrine,153.80
+1008,89,Male,26,Married,0,Costa Rica,0,1,Naproxen,Cardiac,141.69
+1009,96,Male,36,Divorced,1,Iraq,0,0,Doxycycline Hyclate,Neurological,148.99
+1010,0,Male,25,Divorced,1,Cape Verde,1,1,Simvastatin,Oncology,141.25
+1011,53,Female,42,Common-Law,1,Tunisia,0,0,Cialis,None,134.22
+1012,30,Female,40,Married,1,Comoros,1,1,Lisinopril,Neurological,142.43
+1013,20,Female,21,Single,1,Senegal,1,1,Tramadol HCl,Oncology,162.28
+1014,71,Male,31,Divorced,0,Bulgaria,1,1,Amitriptyline HCl,,141.56
+1015,6,Male,24,Single,1,Guinea-Bissau,1,1,Ibuprofen (Rx),Ophthalmic,152.31
+1016,49,Male,32,Single,0,Saint Lucia,1,0,Simvastatin,Neurological,128.92
+1017,56,Female,43,Married,1,Christmas Island,1,1,Albuterol,None,154.57
+1018,98,Female,33,Divorced,1,Isle of Man,0,0,Nexium,Oncology,156.80
+1019,65,Female,19,Single,0,Nigeria,0,0,Sulfamethoxazole/Trimethoprim,None,151.62
+1020,86,Male,37,Single,0,Cyprus,0,0,Risperidone,None,155.05
+1021,83,Female,22,Married,0,Montserrat,1,0,Diovan,Orthopedic,144.35
+1022,51,Male,42,Common-Law,0,Algeria,0,1,Amoxicillin Trihydrate/Potassium Clavulanate,Endocrine,163.98
+1023,17,Female,43,Common-Law,0,Guatemala,0,0,Advair Diskus,Autoimmune,162.95
+1024,54,Male,24,Common-Law,1,Aruba,0,0,Vyvanse,Neurological,131.66
+1025,42,Male,25,Common-Law,0,Gabon,0,1,Lantus Solostar,Endocrine,128.50
+1026,88,Female,36,Married,1,Congo (Brazzaville),0,1,Albuterol,,139.97
+1027,54,Female,39,Divorced,1,Zimbabwe,0,1,Amoxicillin,DigestiveSystem,157.59
+1028,12,Female,31,Divorced,1,Mayotte,0,0,Premarin,Orthopedic,136.81
+1029,42,Female,31,Common-Law,0,Japan,1,0,Enalapril Maleate,DigestiveSystem,141.60
+1030,30,Male,27,Single,0,Sri Lanka,0,0,Levaquin,Endocrine,168.84
+1031,57,Male,37,Married,0,Nepal,0,0,Benicar,DigestiveSystem,144.14
+1032,92,Female,39,Divorced,1,New Zealand,1,0,Niaspan,Neurological,129.82
+1033,27,Female,44,Divorced,1,China,0,0,Bystolic,Autoimmune,150.00
+1034,35,Male,34,Common-Law,1,Bulgaria,0,0,Viagra,Cardiac,161.31
+1035,51,Male,37,Common-Law,0,Pakistan,1,1,Furosemide,Autoimmune,149.43
+1036,76,Male,17,Divorced,1,Mozambique,0,0,Carvedilol,None,139.48
+1037,100,Male,38,Single,0,Congo (Brazzaville),1,0,Zyprexa,Oncology,158.54
+1038,87,Male,38,Common-Law,0,Lesotho,1,0,TriNessa,DigestiveSystem,151.60
+1039,66,Female,25,Single,1,Bolivia,1,1,Klor-Con M20,Neurological,147.56
+1040,7,Male,28,Common-Law,1,Syria,1,0,APAP/Codeine,Orthopedic,144.49
+1041,53,Male,43,Married,1,Saint Barthélemy,0,0,Prednisone,DigestiveSystem,126.13
+1042,46,Male,42,Married,1,South Africa,0,1,Glipizide,Autoimmune,165.65
+1043,91,Male,20,Married,1,Holy See (Vatican City State),1,0,Symbicort,Neurological,158.56
+1044,65,Female,39,Divorced,1,Comoros,1,1,Sulfamethoxazole/Trimethoprim,Autoimmune,148.52
+1045,43,Male,20,Common-Law,0,Taiwan,1,0,None,Orthopedic,149.27
+1046,95,Female,30,Married,1,Cuba,0,0,Gabapentin,Neurological,148.31
+1047,78,Female,40,Divorced,0,Falkland Islands,0,1,Levaquin,Ophthalmic,160.99
+1048,96,Male,45,Common-Law,1,Solomon Islands,1,1,Singulair,Autoimmune,142.53
+1049,91,Male,41,Married,0,"Palestine, State of",1,0,Namenda,None,143.71
+1050,38,Male,44,Single,0,Romania,0,0,TriNessa,Orthopedic,122.79
+1051,42,Female,21,Single,0,Zimbabwe,0,0,Alprazolam,Neurological,143.86
+1052,19,Male,31,Divorced,1,Kyrgyzstan,0,1,Omeprazole (Rx),Cardiac,149.00
+1053,11,Male,41,Married,1,Saint Barthélemy,1,1,Enalapril Maleate,Orthopedic,124.53
+1054,41,Male,30,Married,0,Iceland,1,1,Lyrica,None,160.71
+1055,1,Female,18,Single,0,Syria,0,0,Gabapentin,Ophthalmic,151.70
+1056,39,Female,34,Divorced,1,Cocos (Keeling) Islands,1,1,Ibuprofen (Rx),Orthopedic,153.04
+1057,13,Male,34,Single,0,Micronesia,0,0,Allopurinol,Oncology,144.76
+1058,18,Male,22,Single,0,Saint Barthélemy,1,0,Potassium Chloride,Neurological,155.43
+1059,80,Male,29,Single,1,Saint Pierre and Miquelon,0,0,Lyrica,Endocrine,149.00
+1060,35,Male,25,Single,0,Uganda,1,1,Alendronate Sodium,Neurological,163.66
+1061,91,Female,29,Divorced,0,"Virgin Islands, United States",0,1,Cialis,Orthopedic,162.25
+1062,23,Female,21,Divorced,1,France,0,0,Seroquel,Endocrine,126.82
+1063,65,Male,19,Divorced,1,Grenada,0,1,Niaspan,Cardiac,155.68
+1064,45,Male,40,Common-Law,1,Timor-Leste,0,0,Gabapentin,None,146.68
+1065,79,Female,41,Divorced,0,Chile,1,1,Metoprolol Succinatee,Cardiac,141.18
+1066,72,Male,43,Divorced,1,Pitcairn Islands,0,0,Fluticasone Propionate,Autoimmune,138.08
+1067,18,Male,27,Divorced,0,Heard Island and Mcdonald Islands,0,1,Albuterol,Cardiac,168.09
+1068,26,Female,42,Single,0,United Arab Emirates,1,0,Lyrica,Oncology,152.71
+1069,70,Female,17,Married,0,Norfolk Island,0,1,Klor-Con M20,Cardiac,170.61
+1070,39,Male,24,Single,0,Bahamas,0,0,Amitriptyline HCl,Oncology,147.22
+1071,25,Female,20,Divorced,0,Jordan,1,1,Proair HFA,Orthopedic,163.89
+1072,77,Female,36,Common-Law,1,Ethiopia,0,0,Omeprazole (Rx),Oncology,143.42
+1073,8,Male,38,Single,0,Antarctica,1,1,Fluoxetine HCl,Ophthalmic,134.69
+1074,19,Male,40,Married,0,Oman,0,0,Zolpidem Tartrate,Endocrine,139.59
+1075,88,Female,34,Common-Law,1,Gabon,1,0,Lovastatin,Autoimmune,148.79
+1076,44,Male,25,Single,1,American Samoa,1,0,Losartan Potassium,Endocrine,125.32
+1077,57,Female,35,Married,0,Finland,1,0,Carisoprodol,Orthopedic,178.47
+1078,70,Male,33,Divorced,0,Anguilla,0,0,Zyprexa,Neurological,149.30
+1079,64,Female,21,Single,1,Saint Kitts and Nevis,0,0,Cialis,DigestiveSystem,174.96
+1080,80,Male,27,Divorced,1,Liechtenstein,1,1,Carvedilol,,147.13
+1081,49,Male,38,Common-Law,1,Estonia,1,0,Ciprofloxacin HCl,Ophthalmic,166.51
+1082,75,Male,24,Married,0,Montenegro,1,0,Furosemide,Neurological,152.90
+1083,81,Female,39,Common-Law,0,Greece,1,1,Januvia,Autoimmune,158.33
+1084,85,Male,27,Married,1,Cyprus,1,1,Lexapro,Autoimmune,144.71
+1085,50,Male,24,Married,1,Finland,0,1,Triamcinolone Acetonide,Endocrine,168.81
+1086,16,Female,42,Married,0,Romania,1,0,LevothyroxineSodium,Cardiac,148.26
+1087,78,Female,26,Common-Law,0,Anguilla,1,1,Fluconazole,Cardiac,145.92
+1088,87,Female,27,Married,0,Greenland,1,0,Nexium,DigestiveSystem,140.23
+1089,56,Female,34,Divorced,1,Ethiopia,0,0,Albuterol,Autoimmune,142.48
+1090,32,Female,30,Single,1,Solomon Islands,1,1,Amlodipine Besylate,Orthopedic,118.71
+1091,79,Male,30,Divorced,0,Dominica,1,0,Nexium,Orthopedic,148.21
+1092,97,Female,24,Single,0,"Bonaire, Sint Eustatius and Saba",1,1,Potassium Chloride,Orthopedic,140.87
+1093,4,Female,29,Married,0,Austria,1,0,Premarin,Ophthalmic,168.47
+1094,67,Female,21,Common-Law,0,China,1,1,Penicillin VK,Ophthalmic,137.43
+1095,51,Female,28,Married,1,Cuba,1,1,Vytorin,Autoimmune,145.74
+1096,55,Female,26,Common-Law,1,Åland Islands,0,1,Sertraline HCl,,167.77
+1097,49,Male,38,Divorced,1,Congo (Brazzaville),1,1,Fluticasone Propionate,Neurological,136.56
+1098,97,Female,24,Single,0,Libya,1,1,Cyclobenzaprin HCl,Cardiac,153.83
+1099,8,Female,32,Divorced,0,Antarctica,0,0,Symbicort,DigestiveSystem,149.46
+1100,50,Male,43,Common-Law,1,Kuwait,0,1,Synthroid,Endocrine,169.49
+1101,79,Male,20,Single,0,Benin,1,1,Naproxen,Endocrine,152.69
+1102,32,Male,43,Common-Law,0,Guadeloupe,0,0,Carisoprodol,Cardiac,144.95
+1103,49,Male,17,Single,1,South Africa,0,0,Tricor,Autoimmune,147.40
+1104,86,Male,29,Single,0,Belgium,0,1,Nexium,Orthopedic,162.70
+1105,31,Male,25,Single,0,Argentina,0,0,Nuvaring,None,143.92
+1106,36,Male,22,Married,0,Indonesia,1,0,Levaquin,None,125.44
+1107,89,Male,16,Married,1,Canada,1,0,Zetia,Endocrine,165.94
+1108,78,Male,44,Married,1,Cocos (Keeling) Islands,1,1,Digoxin,Endocrine,168.27
+1109,39,Male,37,Single,0,Georgia,1,1,Folic Acid,Oncology,148.07
+1110,82,Male,21,Divorced,0,Egypt,0,1,Benicar HCT,Oncology,147.26
+1111,1,Male,21,Married,0,Colombia,0,0,Triamcinolone Acetonide,DigestiveSystem,149.64
+1112,99,Male,18,Divorced,0,Antarctica,1,0,Amitriptyline HCl,Endocrine,153.21
+1113,92,Male,23,Divorced,1,Nigeria,0,1,Zyprexa,None,176.76
+1114,72,Female,45,Married,0,Nepal,1,0,Tamsulosin HCl,Orthopedic,135.64
+1115,75,Female,39,Single,0,"Palestine, State of",0,1,Promethazine HCl,Orthopedic,168.05
+1116,48,Male,43,Common-Law,1,Guernsey,1,0,Bystolic,None,125.04
+1117,54,Female,21,Married,1,"Korea, South",0,0,Niaspan,Cardiac,159.84
+1118,56,Female,31,Single,1,Guatemala,1,1,Crestor,Cardiac,153.01
+1119,26,Male,23,Single,0,Falkland Islands,0,0,Alprazolam,Neurological,152.96
+1120,5,Male,21,Married,1,Burundi,0,1,Triamcinolone Acetonide,None,157.87
+1121,66,Female,30,Married,0,Denmark,1,0,Metoprolol Tartrate,None,140.44
+1122,35,Female,23,Single,0,Kazakhstan,0,1,Tri-Sprintec,Neurological,153.71
+1123,89,Male,31,Common-Law,0,"Virgin Islands, United States",1,0,Promethazine HCl,Cardiac,142.48
+1124,69,Male,32,Single,0,New Caledonia,1,1,Gianvi,None,156.07
+1125,68,Male,40,Common-Law,1,Kuwait,0,0,Alendronate Sodium,Cardiac,162.44
+1126,70,Female,22,Divorced,0,Lesotho,0,1,Crestor,,132.91
+1127,56,Male,28,Common-Law,0,Switzerland,0,0,Niaspan,Endocrine,146.37
+1128,28,Female,25,Single,1,Latvia,1,0,Doxycycline Hyclate,,147.80
+1129,69,Female,20,Divorced,1,Israel,1,1,Vitamin D (Rx),Autoimmune,136.01
+1130,2,Female,18,Married,1,Algeria,1,0,Enalapril Maleate,Neurological,141.39
+1131,17,Female,40,Divorced,1,Namibia,1,1,Digoxin,Ophthalmic,132.34
+1132,17,Male,32,Divorced,0,Aruba,1,1,Citalopram HBr,None,154.44
+1133,5,Female,26,Divorced,0,Egypt,1,0,Niaspan,Autoimmune,172.47
+1134,30,Male,39,Common-Law,1,Saint Lucia,1,0,Amitriptyline HCl,Autoimmune,156.36
+1135,97,Male,22,Married,1,Saint Kitts and Nevis,0,1,Lyrica,Neurological,158.53
+1136,51,Female,16,Single,0,Chile,1,1,Bystolic,Endocrine,136.06
+1137,77,Male,40,Single,1,Seychelles,1,1,Tramadol HCl,None,151.98
+1138,22,Female,33,Single,1,Taiwan,1,1,Metformin HCl,Endocrine,136.93
+1139,48,Female,43,Single,0,Canada,0,0,Triamcinolone Acetonide,None,147.07
+1140,98,Female,26,Married,0,Dominican Republic,1,0,Proair HFA,None,154.54
+1141,8,Male,29,Single,0,Palau,1,0,Levothyroxine Sodium,Oncology,138.89
+1142,27,Male,36,Single,1,Bouvet Island,1,0,Clonazepam,DigestiveSystem,148.38
+1143,73,Male,36,Single,0,Romania,1,1,Flovent HFA,Endocrine,156.69
+1144,53,Male,19,Married,0,Ukraine,1,0,Losartan Potassium,Ophthalmic,155.63
+1145,19,Male,26,Married,0,"Palestine, State of",0,1,Oxycodone HCl,Endocrine,170.35
+1146,47,Male,40,Single,0,Tokelau,0,1,Niaspan,Cardiac,152.19
+1147,78,Male,37,Common-Law,1,Panama,0,1,Levaquin,Cardiac,142.85
+1148,86,Male,30,Married,0,Sri Lanka,1,1,Glyburide,Autoimmune,151.92
+1149,7,Female,28,Common-Law,0,Germany,1,0,APAP/Codeine,DigestiveSystem,138.23
+1150,67,Male,27,Common-Law,1,Poland,1,1,Losartan Potassium,Endocrine,147.89
+1151,2,Male,36,Common-Law,1,Norway,1,0,Crestor,DigestiveSystem,162.69
+1152,79,Female,23,Married,0,Uganda,0,0,Gianvi,Autoimmune,158.48
+1153,59,Male,15,Married,1,Brunei,0,0,Oxycodone HCl,Endocrine,153.09
+1154,11,Male,42,Single,1,"Palestine, State of",0,0,Oxycodone HCl,DigestiveSystem,132.47
+1155,86,Male,15,Divorced,0,Cameroon,1,0,Carvedilol,Orthopedic,141.63
+1156,1,Female,30,Married,0,Oman,0,1,Symbicort,Orthopedic,152.98
+1157,22,Male,40,Divorced,1,Panama,1,1,Tri-Sprintec,Ophthalmic,128.66
+1158,77,Male,29,Common-Law,0,Curaçao,0,1,Risperidone,None,157.59
+1159,50,Female,32,Married,1,Libya,0,1,Nuvaring,Oncology,139.11
+1160,59,Female,33,Single,0,Equatorial Guinea,1,1,Actos,Oncology,162.60
+1161,60,Male,38,Common-Law,1,Guinea,1,0,Actos,Oncology,161.79
+1162,95,Female,45,Single,0,Syria,0,0,Atenolol,Endocrine,144.53
+1163,14,Female,15,Married,1,Sudan,1,0,Promethazine HCl,DigestiveSystem,152.96
+1164,5,Female,22,Single,1,Costa Rica,0,0,Nasonex,Endocrine,164.93
+1165,32,Male,25,Common-Law,0,Congo (Brazzaville),0,1,Digoxin,Oncology,143.91
+1166,54,Male,43,Single,1,Senegal,0,1,Zolpidem Tartrate,DigestiveSystem,130.67
+1167,30,Female,24,Married,1,Somalia,1,0,Metoprolol Tartrate,Cardiac,166.20
+1168,0,Male,22,Divorced,0,Turks and Caicos Islands,1,1,Bystolic,Cardiac,138.00
+1169,2,Female,42,Divorced,1,Senegal,0,1,Flovent HFA,,141.99
+1170,33,Female,17,Common-Law,1,Guam,0,1,Tramadol HCl,Autoimmune,155.35
+1171,36,Male,15,Married,1,Israel,1,1,Tricor,DigestiveSystem,133.94
+1172,72,Female,43,Divorced,1,Chad,0,1,Carvedilol,Cardiac,143.27
+1173,27,Male,31,Common-Law,0,Oman,1,1,Risperidone,DigestiveSystem,159.15
+1174,71,Male,33,Married,1,El Salvador,0,0,Benicar,Endocrine,128.24
+1175,13,Male,27,Divorced,0,Bhutan,1,0,Cyclobenzaprin HCl,Neurological,153.13
+1176,59,Male,16,Single,0,United Kingdom (Great Britain),0,1,Venlafaxine HCl ER,Endocrine,163.47
+1177,9,Male,31,Divorced,1,Equatorial Guinea,0,1,Tricor,Oncology,145.35
+1178,93,Male,43,Married,0,Mayotte,0,0,Famotidine,None,149.31
+1179,68,Male,21,Divorced,1,Bolivia,0,1,Famotidine,DigestiveSystem,165.16
+1180,10,Male,24,Common-Law,1,"Bonaire, Sint Eustatius and Saba",0,1,Warfarin Sodium,Cardiac,147.85
+1181,73,Female,37,Single,1,Croatia,0,1,Levothyroxine Sodium,Cardiac,145.49
+1182,46,Male,32,Single,1,Mongolia,1,0,Zetia,,150.87
+1183,96,Female,27,Common-Law,1,South Sudan,0,1,Abilify,Cardiac,155.87
+1184,82,Male,18,Divorced,0,Macao,0,1,Cephalexin,Neurological,135.97
+1185,40,Female,34,Single,1,Singapore,1,1,Atenolol,Orthopedic,152.17
+1186,50,Male,26,Common-Law,0,Israel,0,0,Sulfamethoxazole/Trimethoprim,DigestiveSystem,119.82
+1187,40,Male,23,Married,1,Greenland,0,1,Cymbalta,Oncology,148.66
+1188,69,Female,15,Divorced,1,Suriname,0,1,Citalopram HBr,Ophthalmic,158.08
+1189,24,Female,30,Married,1,Åland Islands,1,0,Lipitor,DigestiveSystem,175.27
+1190,9,Female,31,Single,1,Denmark,1,1,Digoxin,Cardiac,125.63
+1191,28,Female,42,Single,0,Saint Pierre and Miquelon,0,1,Vytorin,Cardiac,135.11
+1192,24,Male,38,Divorced,1,Russian Federation,0,0,Tricor,None,122.37
+1193,75,Male,25,Married,1,Morocco,0,1,Symbicort,,132.52
+1194,91,Female,28,Divorced,1,Saint Pierre and Miquelon,1,0,Glipizide,None,144.58
+1195,4,Female,38,Common-Law,1,Japan,1,0,APAP/Codeine,Cardiac,167.12
+1196,48,Male,18,Married,1,Gambia,1,0,Suboxone,Neurological,158.35
+1197,63,Female,24,Divorced,0,Thailand,1,1,Spiriva Handihaler,Oncology,141.18
+1198,70,Female,32,Common-Law,1,Saint Pierre and Miquelon,0,0,Lantus Solostar,Orthopedic,152.99
+1199,19,Female,42,Single,1,Dominican Republic,0,0,Gianvi,,151.16
+1200,67,Female,40,Single,1,"Saint Helena, Ascension and Tristan da Cunha",0,0,Metoprolol Succinatee,Endocrine,147.87
+1201,64,Female,39,Married,1,Tonga,1,0,Premarin,Autoimmune,165.93
+1202,83,Male,19,Divorced,0,Niger,1,0,Zyprexa,None,143.69
+1203,89,Male,20,Married,0,Kenya,0,0,Carvedilol,Oncology,145.33
+1204,2,Female,33,Divorced,1,Uzbekistan,0,0,Plavix,Ophthalmic,178.54
+1205,40,Male,35,Married,0,Brazil,1,0,Zyprexa,None,139.43
+1206,17,Female,22,Single,0,Cuba,1,0,None,Endocrine,148.79
+1207,96,Female,25,Single,0,Armenia,0,0,Simvastatin,Autoimmune,149.86
+1208,38,Female,26,Single,1,India,1,1,Azithromycin,Ophthalmic,154.40
+1209,39,Female,44,Common-Law,0,Gibraltar,0,1,Oxycodone HCl,Autoimmune,154.02
+1210,68,Female,20,Common-Law,0,Mauritania,0,0,Ventolin HFA,,149.54
+1211,48,Female,25,Married,0,Venezuela,0,1,Niaspan,Autoimmune,149.82
+1212,76,Male,42,Divorced,0,Malawi,1,1,Glipizide,Neurological,135.38
+1213,82,Female,23,Single,0,Norway,1,0,Nexium,Cardiac,162.86
+1214,97,Male,32,Common-Law,1,Iceland,0,1,Nasonex,Cardiac,150.66
+1215,55,Female,27,Divorced,1,Bolivia,0,1,Lorazepam,Ophthalmic,179.11
+1216,11,Male,19,Common-Law,1,Marshall Islands,0,1,Lipitor,Ophthalmic,134.91
+1217,92,Male,33,Married,0,Oman,1,1,Nasonex,DigestiveSystem,159.70
+1218,58,Male,37,Common-Law,1,Fiji,0,0,Viagra,Orthopedic,166.49
+1219,59,Female,43,Married,0,Christmas Island,1,0,Hydrocodone/APAP,Endocrine,178.75
+1220,90,Male,41,Single,0,Australia,1,1,Lantus Solostar,Orthopedic,157.62
+1221,54,Male,28,Married,1,Azerbaijan,0,0,Ranitidine HCl,None,152.76
+1222,10,Female,42,Common-Law,1,Taiwan,1,0,Cheratussin AC,Cardiac,156.70
+1223,99,Male,29,Married,0,Solomon Islands,0,0,Losartan Potassium,DigestiveSystem,161.98
+1224,90,Female,39,Single,0,Argentina,0,1,Levothyroxine Sodium,Ophthalmic,172.18
+1225,55,Male,28,Married,1,Honduras,1,1,Proair HFA,Orthopedic,137.47
+1226,92,Male,23,Single,0,Åland Islands,1,1,Singulair,Orthopedic,133.31
+1227,23,Male,32,Married,0,Guadeloupe,0,1,Namenda,Ophthalmic,174.15
+1228,6,Female,17,Common-Law,0,Panama,1,1,Methylprednisolone,DigestiveSystem,155.47
+1229,59,Female,36,Common-Law,1,Guyana,1,0,Metoprolol Succinate,,151.95
+1230,24,Male,39,Married,1,Colombia,1,0,Diovan,DigestiveSystem,142.05
+1231,68,Male,39,Married,1,Fiji,0,0,Viagra,None,160.47
+1232,91,Male,23,Divorced,1,Bermuda,0,1,APAP/Codeine,None,163.27
+1233,48,Male,24,Married,0,Haiti,1,1,Citalopram HBR,Orthopedic,148.22
+1234,90,Male,16,Single,0,Paraguay,0,0,Cephalexin,None,158.51
+1235,78,Female,16,Single,1,Libya,0,1,LevothyroxineSodium,Cardiac,150.18
+1236,1,Female,29,Single,0,Ireland,1,0,Synthroid,Orthopedic,137.87
+1237,23,Male,45,Divorced,0,Svalbard and Jan Mayen Islands,0,0,Levoxyl,Endocrine,157.07
+1238,100,Male,34,Single,1,Bosnia and Herzegovina,1,1,Lorazepam,Endocrine,148.43
+1239,81,Female,28,Divorced,0,Antigua and Barbuda,1,1,Flovent HFA,Oncology,162.97
+1240,38,Female,43,Married,0,Lithuania,0,1,Zolpidem Tartrate,Ophthalmic,133.87
+1241,55,Female,35,Common-Law,1,Taiwan,1,0,Ranitidine HCl,,149.00
+1242,5,Male,43,Married,1,Nauru,0,0,Sulfamethoxazole/Trimethoprim,Autoimmune,117.82
+1243,7,Male,20,Single,0,Ghana,0,1,Levaquin,DigestiveSystem,154.91
+1244,73,Female,18,Single,1,Spain,1,0,Diazepam,Endocrine,127.36
+1245,94,Female,40,Common-Law,1,Serbia,0,1,Penicillin VK,Endocrine,150.88
+1246,41,Male,23,Single,1,"Saint Helena, Ascension and Tristan da Cunha",0,0,Lantus Solostar,,135.93
+1247,22,Female,31,Married,1,Macao,0,0,Metoprolol Succinate,DigestiveSystem,157.68
+1248,90,Female,36,Divorced,0,Mexico,0,1,Digoxin,DigestiveSystem,137.47
+1249,33,Female,35,Divorced,1,San Marino,0,1,Prednisone,DigestiveSystem,154.97
+1250,8,Female,29,Single,0,Åland Islands,0,1,Lipitor,Ophthalmic,127.16
+1251,47,Male,23,Common-Law,0,Slovakia,0,1,Levoxyl,Cardiac,154.06
+1252,72,Female,17,Married,0,Burundi,0,0,Paroxetine HCl,,161.62
+1253,47,Male,28,Married,1,Estonia,1,1,Cheratussin AC,None,162.58
+1254,9,Female,44,Divorced,1,Iran,1,1,Premarin,Orthopedic,145.03
+1255,91,Female,34,Single,0,Guinea,1,0,Nexium,Oncology,142.36
+1256,13,Female,45,Common-Law,0,Heard Island and Mcdonald Islands,1,1,Lipitor,None,144.49
+1257,50,Female,40,Common-Law,0,Afghanistan,0,0,Alprazolam,Orthopedic,136.08
+1258,74,Male,16,Single,1,Barbados,0,1,Clonazepam,Autoimmune,165.94
+1259,10,Female,17,Single,1,Eritrea,1,1,Azithromycin,Orthopedic,152.49
+1260,54,Female,17,Common-Law,1,Mayotte,1,0,Tricor,,131.53
+1261,1,Female,31,Single,1,Sri Lanka,1,1,Penicillin VK,Autoimmune,145.93
+1262,43,Female,20,Single,0,French Southern Territories,1,0,Warfarin Sodium,None,159.75
+1263,18,Female,23,Common-Law,1,South Georgia and The South Sandwich Islands,0,1,Triamcinolone Acetonide,Neurological,135.30
+1264,54,Male,18,Married,0,Kyrgyzstan,1,0,Furosemide,Cardiac,182.82
+1265,42,Female,41,Divorced,0,Albania,0,1,Pantoprazole Sodium,Orthopedic,153.35
+1266,75,Female,43,Married,0,Mayotte,1,1,Abilify,DigestiveSystem,141.50
+1267,55,Female,25,Single,1,Portugal,1,0,Flovent HFA,Ophthalmic,148.92
+1268,86,Female,23,Single,0,Saudi Arabia,0,0,Actos,None,142.32
+1269,62,Female,31,Common-Law,0,Greenland,1,1,Alprazolam,Autoimmune,155.39
+1270,72,Female,37,Single,0,South Africa,1,1,Azithromycin,Ophthalmic,149.69
+1271,61,Male,31,Common-Law,0,Russian Federation,1,1,Tamsulosin HCl,,164.45
+1272,92,Female,37,Married,0,Switzerland,0,0,Omeprazole (Rx),,148.22
+1273,12,Female,32,Single,0,Sudan,0,1,Alprazolam,Endocrine,125.66
+1274,92,Male,17,Common-Law,0,Kiribati,1,0,Lidoderm,None,159.01
+1275,40,Male,44,Divorced,0,China,1,0,Lantus Solostar,,154.30
+1276,33,Female,34,Single,0,Switzerland,1,1,None,Ophthalmic,139.00
+1277,15,Male,17,Married,1,Guyana,1,1,Metoprolol Succinatee,Endocrine,158.29
+1278,64,Female,26,Divorced,1,Taiwan,0,1,Celebrex,Cardiac,136.01
+1279,3,Male,17,Divorced,0,Bahamas,0,0,Vytorin,DigestiveSystem,157.52
+1280,24,Female,34,Common-Law,0,Dominican Republic,1,1,Viagra,Endocrine,146.08
+1281,21,Male,28,Married,0,South Sudan,0,0,Nexium,,171.34
+1282,25,Male,42,Divorced,0,Italy,1,0,,Neurological,148.95
+1283,41,Male,23,Married,0,Namibia,0,0,Alprazolam,DigestiveSystem,161.84
+1284,59,Male,36,Single,1,Brazil,1,1,Simvastatin,Oncology,196.09
+1285,15,Female,36,Divorced,1,Puerto Rico,1,0,Amitriptyline HCl,DigestiveSystem,145.96
+1286,37,Male,18,Married,0,Botswana,1,1,Namenda,Ophthalmic,155.57
+1287,11,Male,43,Single,0,Marshall Islands,0,1,Lantus,Orthopedic,142.07
+1288,69,Female,36,Single,1,Martinique,0,0,Synthroid,DigestiveSystem,135.85
+1289,88,Male,26,Married,1,French Polynesia,0,1,Oxycodone/APAP,Ophthalmic,166.57
+1290,64,Male,17,Divorced,0,Cocos (Keeling) Islands,1,0,Lidoderm,Endocrine,144.53
+1291,70,Female,29,Single,0,Iraq,0,1,Loestrin 24 Fe,Cardiac,120.95
+1292,21,Male,32,Single,0,Jamaica,0,0,Oxycodone/APAP,Ophthalmic,138.16
+1293,35,Male,29,Common-Law,0,Sao Tome and Principe,1,0,Lovaza,Autoimmune,143.15
+1294,97,Female,41,Single,0,Cook Islands,1,0,Furosemide,None,157.12
+1295,60,Female,21,Single,1,Equatorial Guinea,1,1,Azithromycin,Orthopedic,130.34
+1296,0,Female,40,Divorced,1,Tunisia,1,1,Tricor,None,159.14
+1297,16,Female,33,Divorced,0,Comoros,1,1,Cialis,Oncology,145.04
+1298,81,Male,32,Single,0,Tuvalu,1,0,Zetia,Autoimmune,148.95
+1299,9,Female,28,Divorced,1,Hungary,1,1,Carvedilol,Endocrine,150.57
+1300,24,Female,35,Single,1,Guatemala,1,0,Nexium,Ophthalmic,150.07
+1301,45,Male,40,Divorced,1,Puerto Rico,0,0,Risperidone,Cardiac,165.83
+1302,93,Female,39,Married,0,Botswana,1,0,Alprazolam,Orthopedic,145.71
+1303,69,Female,40,Common-Law,0,Dominican Republic,0,0,Niaspan,None,159.52
+1304,19,Male,28,Divorced,1,Pitcairn Islands,0,1,Lantus,Orthopedic,177.54
+1305,39,Male,35,Married,0,Montserrat,1,1,Advair Diskus,Cardiac,165.52
+1306,31,Male,26,Divorced,0,Greenland,1,1,None,Endocrine,147.31
+1307,4,Male,18,Common-Law,0,Syria,1,1,Penicillin VK,Oncology,134.78
+1308,91,Female,17,Common-Law,1,Czech Republic,1,1,Furosemide,Ophthalmic,141.01
+1309,69,Female,33,Common-Law,0,Botswana,1,0,Tricor,Neurological,149.27
+1310,7,Female,36,Married,0,Cocos (Keeling) Islands,0,1,Lovaza,Oncology,143.43
+1311,68,Female,44,Married,1,South Georgia and The South Sandwich Islands,0,1,Nasonex,Endocrine,144.08
+1312,98,Male,28,Single,0,Cayman Islands,0,1,Lidoderm,None,134.06
+1313,79,Female,33,Single,0,Slovakia,1,0,Suboxone,None,155.28
+1314,58,Female,20,Common-Law,0,Denmark,0,0,APAP/Codeine,Oncology,125.15
+1315,87,Female,24,Married,1,Paraguay,1,0,Lantus,DigestiveSystem,149.61
+1316,98,Female,38,Married,0,Niger,0,1,Fluticasone Propionate,Oncology,127.39
+1317,34,Female,39,Married,0,Latvia,0,0,Levaquin,Neurological,164.55
+1318,63,Male,26,Common-Law,1,Sint Maarten,0,0,Nuvaring,Neurological,154.95
+1319,48,Female,33,Single,1,France,0,0,Lantus Solostar,Neurological,152.86
+1320,57,Female,19,Married,1,Equatorial Guinea,1,0,Trazodone HCl,Orthopedic,145.87
+1321,41,Female,18,Single,1,Dominican Republic,1,1,Januvia,Neurological,148.19
+1322,26,Male,24,Single,0,Mexico,1,0,Metoprolol Succinatee,DigestiveSystem,148.87
+1323,88,Female,38,Married,0,Finland,0,0,APAP/Codeine,DigestiveSystem,162.71
+1324,41,Male,20,Single,0,Tokelau,1,1,Nasonex,DigestiveSystem,165.48
+1325,79,Female,21,Married,1,Svalbard and Jan Mayen Islands,1,1,Fluticasone Propionate,DigestiveSystem,142.17
+1326,85,Male,34,Single,1,Mongolia,0,1,Crestor,Endocrine,164.74
+1327,51,Male,18,Married,0,Mongolia,1,1,Januvia,Endocrine,140.95
+1328,67,Female,33,Divorced,1,United Arab Emirates,1,0,Potassium Chloride,None,159.70
+1329,76,Female,20,Married,0,Guernsey,1,0,Diazepam,None,153.34
+1330,7,Male,38,Divorced,1,Botswana,0,1,Januvia,None,170.65
+1331,19,Female,38,Married,1,Ecuador,1,1,Paroxetine HCl,Ophthalmic,129.16
+1332,42,Female,42,Divorced,1,Timor-Leste,0,0,Folic Acid,Neurological,159.17
+1333,41,Male,17,Common-Law,1,Burkina Faso,1,1,Metoprolol Succinatee,Cardiac,172.55
+1334,34,Female,22,Common-Law,0,Guinea,0,1,Benicar,Orthopedic,189.26
+1335,44,Female,25,Common-Law,0,Antarctica,0,0,Hydrochlorothiazide,None,152.78
+1336,18,Female,21,Single,0,Saint Vincent and The Grenadines,1,1,Metoprolol Succinate,Endocrine,167.10
+1337,62,Male,37,Divorced,1,Poland,0,1,Levaquin,Endocrine,165.95
+1338,27,Female,16,Married,0,Ghana,0,1,Lexapro,Endocrine,170.44
+1339,69,Male,28,Divorced,0,Finland,0,1,Premarin,DigestiveSystem,162.07
+1340,8,Female,23,Married,1,Cocos (Keeling) Islands,0,0,Citalopram HBr,None,149.94
+1341,75,Male,18,Married,1,Latvia,1,1,Suboxone,Neurological,161.16
+1342,12,Female,36,Single,1,"Virgin Islands, British",1,1,Tricor,Orthopedic,135.29
+1343,54,Female,26,Common-Law,1,Turkmenistan,0,0,Cialis,Oncology,157.46
+1344,30,Female,39,Single,1,Belize,0,1,Abilify,Orthopedic,155.37
+1345,15,Female,41,Married,0,Western Sahara,1,1,Promethazine HCl,Cardiac,182.01
+1346,25,Female,41,Married,0,India,0,1,Viagra,None,150.74
+1347,91,Female,18,Single,1,Finland,0,0,Furosemide,None,127.27
+1348,52,Female,42,Common-Law,0,Tonga,0,0,Allopurinol,,156.37
+1349,83,Female,28,Married,0,Honduras,0,0,Simvastatin,DigestiveSystem,158.53
+1350,98,Male,41,Common-Law,1,Jordan,1,0,Digoxin,Orthopedic,152.58
+1351,9,Female,40,Common-Law,0,Serbia,1,1,Premarin,None,144.25
+1352,79,Male,34,Divorced,1,Bhutan,1,1,Spiriva Handihaler,Neurological,151.60
+1353,40,Female,44,Married,0,Venezuela,0,0,Potassium Chloride,Autoimmune,149.19
+1354,39,Male,36,Common-Law,1,Japan,0,1,Fluconazole,Ophthalmic,154.11
+1355,14,Female,42,Common-Law,0,Saint Martin,1,0,Triamcinolone Acetonide,Orthopedic,142.78
+1356,29,Female,20,Single,0,Aruba,0,1,Advair Diskus,Cardiac,160.99
+1357,88,Female,17,Single,1,"Korea, North",1,1,Singulair,Autoimmune,168.71
+1358,73,Female,39,Single,0,Estonia,0,1,Enalapril Maleate,Endocrine,172.74
+1359,36,Female,19,Common-Law,0,Sweden,0,1,Lovastatin,Cardiac,151.11
+1360,72,Male,21,Single,0,Switzerland,0,0,Klor-Con M20,Orthopedic,120.53
+1361,57,Female,44,Common-Law,1,Guatemala,1,1,Methylprednisolone,Autoimmune,143.53
+1362,5,Female,39,Married,0,Taiwan,0,1,Nasonex,,156.22
+1363,42,Male,20,Common-Law,1,Ireland,1,1,Alprazolam,Autoimmune,129.17
+1364,30,Male,42,Single,0,Nigeria,1,1,Ventolin HFA,None,150.49
+1365,11,Female,17,Common-Law,1,Curaçao,0,0,Diovan,Ophthalmic,142.63
+1366,34,Male,43,Divorced,1,Denmark,1,0,Metoprolol Tartrate,Cardiac,149.27
+1367,75,Male,19,Married,1,Gibraltar,1,1,Triamcinolone Acetonide,Orthopedic,137.36
+1368,42,Male,34,Common-Law,1,Bouvet Island,1,1,Cephalexin,Orthopedic,153.31
+1369,30,Male,25,Common-Law,1,Sint Maarten,1,0,Levothyroxine Sodium,Ophthalmic,147.66
+1370,7,Female,20,Single,0,Philippines,1,0,Methylprednisolone,Ophthalmic,142.48
+1371,77,Male,42,Common-Law,0,Taiwan,0,0,Albuterol,Oncology,172.78
+1372,20,Male,16,Common-Law,0,Macao,1,0,Lorazepam,Orthopedic,151.38
+1373,92,Male,34,Divorced,1,Gabon,0,1,Naproxen,Orthopedic,137.81
+1374,20,Male,41,Common-Law,0,Cuba,0,0,Amoxicillin,Endocrine,151.15
+1375,72,Female,30,Married,1,Iraq,1,0,Fluticasone Propionate,None,164.56
+1376,58,Male,37,Common-Law,1,Uganda,1,1,TriNessa,None,154.32
+1377,98,Female,33,Common-Law,1,Kuwait,1,0,Seroquel,Orthopedic,129.46
+1378,52,Female,45,Married,0,France,0,1,Tri-Sprintec,Neurological,149.19
+1379,84,Male,33,Married,1,Panama,1,1,Alprazolam,Ophthalmic,151.90
+1380,71,Female,39,Common-Law,1,Mauritania,0,0,Clonazepam,Orthopedic,155.39
+1381,17,Female,39,Single,1,Australia,0,0,Vitamin D (Rx),Oncology,148.69
+1382,37,Female,22,Common-Law,1,Bosnia and Herzegovina,0,0,Diovan,Endocrine,167.10
+1383,28,Female,36,Divorced,1,Zambia,0,1,Plavix,Endocrine,147.23
+1384,55,Female,18,Married,1,Cuba,0,1,Bystolic,None,171.49
+1385,60,Female,35,Married,0,Liberia,0,0,Fluconazole,Cardiac,143.84
+1386,9,Male,19,Married,1,Portugal,0,0,Lyrica,DigestiveSystem,133.43
+1387,13,Male,37,Common-Law,1,Mexico,1,0,Naproxen,Endocrine,135.02
+1388,92,Male,33,Divorced,0,Myanmar,1,0,Lorazepam,Endocrine,169.63
+1389,97,Male,24,Married,0,Canada,0,0,Sulfamethoxazole/Trimethoprim,Cardiac,160.37
+1390,78,Male,31,Common-Law,1,Libya,1,0,LevothyroxineSodium,Autoimmune,153.52
+1391,13,Male,45,Common-Law,0,"Virgin Islands, United States",1,1,Lisinopril,Autoimmune,154.58
+1392,14,Male,23,Married,0,China,0,1,Amphetamine Salts,Neurological,157.98
+1393,98,Female,40,Divorced,1,Djibouti,0,1,Vitamin D (Rx),Orthopedic,146.33
+1394,79,Female,25,Divorced,1,Jordan,1,1,Venlafaxine HCl ER,Autoimmune,135.04
+1395,67,Male,44,Married,0,Tonga,0,0,Glipizide,Ophthalmic,122.64
+1396,89,Female,21,Single,0,Myanmar,1,0,Vitamin D (Rx),Neurological,133.60
+1397,64,Male,35,Common-Law,1,Hungary,1,0,Meloxicam,Cardiac,146.94
+1398,84,Male,26,Married,0,Iran,1,0,Benicar,Ophthalmic,139.04
+1399,10,Female,35,Single,0,Kenya,0,1,Lyrica,Ophthalmic,167.20
+1400,100,Female,24,Divorced,1,Colombia,1,0,Hydrocodone/APAP,Endocrine,128.45
+1401,81,Female,27,Common-Law,1,Sri Lanka,1,0,Gianvi,Endocrine,161.32
+1402,77,Female,27,Single,0,Montserrat,1,1,Nexium,Ophthalmic,158.56
+1403,64,Female,17,Divorced,0,Nauru,1,1,Plavix,DigestiveSystem,139.32
+1404,27,Female,15,Common-Law,1,Saint Lucia,1,0,Actos,Oncology,123.57
+1405,71,Male,29,Common-Law,1,Mali,1,0,Plavix,Orthopedic,123.48
+1406,85,Female,15,Divorced,0,"Congo, the Democratic Republic of the",0,1,Nuvaring,Orthopedic,154.26
+1407,15,Male,17,Married,1,Afghanistan,1,1,Pantoprazole Sodium,Oncology,172.22
+1408,24,Male,43,Married,0,Sint Maarten,0,0,Pantoprazole Sodium,,156.68
+1409,5,Female,23,Common-Law,1,Heard Island and Mcdonald Islands,0,1,Januvia,None,137.50
+1410,42,Female,17,Married,0,Niue,0,0,Losartan Potassium,DigestiveSystem,166.40
+1411,29,Female,42,Married,0,Pakistan,1,1,Benicar,Endocrine,155.54
+1412,40,Female,21,Married,0,Comoros,1,1,Enalapril Maleate,None,135.19
+1413,70,Male,39,Married,0,Zambia,1,1,Lorazepam,Ophthalmic,139.79
+1414,9,Male,18,Common-Law,1,Heard Island and Mcdonald Islands,0,0,Symbicort,Orthopedic,137.45
+1415,75,Female,15,Single,1,Eritrea,0,0,Lisinopril,DigestiveSystem,149.27
+1416,43,Female,26,Married,0,Curaçao,1,0,Actos,Endocrine,141.59
+1417,60,Female,28,Single,0,Canada,1,1,Synthroid,Cardiac,148.74
+1418,95,Male,39,Common-Law,0,Isle of Man,1,1,LevothyroxineSodium,Cardiac,141.39
+1419,65,Female,27,Divorced,1,Switzerland,1,1,Zetia,DigestiveSystem,116.07
+1420,37,Female,15,Single,1,"Palestine, State of",0,0,Tricor,,164.08
+1421,44,Female,40,Single,0,Turkey,1,0,Doxycycline Hyclate,Endocrine,161.36
+1422,86,Female,42,Common-Law,0,Timor-Leste,1,1,Fluticasone Propionate,Cardiac,165.57
+1423,47,Male,18,Divorced,0,South Africa,0,0,Zyprexa,None,159.65
+1424,22,Female,40,Married,1,Tokelau,1,1,Abilify,Cardiac,138.48
+1425,4,Male,41,Divorced,0,Benin,0,1,Suboxone,DigestiveSystem,156.24
+1426,75,Male,41,Single,0,Lebanon,1,0,Tri-Sprintec,Oncology,142.72
+1427,48,Male,22,Single,0,Myanmar,0,0,Omeprazole (Rx),None,157.43
+1428,51,Male,30,Common-Law,1,Heard Island and Mcdonald Islands,0,1,Nasonex,Orthopedic,138.16
+1429,52,Female,35,Common-Law,1,Mexico,1,0,Hydrocodone/APAP,,131.05
+1430,49,Male,20,Divorced,0,Madagascar,1,1,APAP/Codeine,,153.69
+1431,82,Male,19,Common-Law,1,India,0,0,Risperidone,None,146.46
+1432,14,Male,18,Single,1,Saint Martin,1,1,Naproxen,Endocrine,146.88
+1433,66,Male,26,Common-Law,0,Jordan,0,0,Levothyroxine Sodium,None,160.38
+1434,79,Male,35,Married,1,Israel,1,0,Carvedilol,Neurological,149.34
+1435,40,Male,45,Divorced,1,Belarus,1,0,Klor-Con M20,None,162.39
+1436,79,Male,33,Divorced,1,New Caledonia,1,1,Benicar HCT,Ophthalmic,135.24
+1437,82,Male,22,Single,1,Israel,0,0,Carisoprodol,Ophthalmic,157.41
+1438,25,Female,44,Single,0,Burundi,0,1,LevothyroxineSodium,None,156.80
+1439,89,Female,27,Single,1,Cape Verde,1,0,TriNessa,None,133.73
+1440,22,Female,17,Divorced,1,Croatia,1,1,Amitriptyline HCl,Orthopedic,152.87
+1441,28,Male,28,Single,0,Pakistan,0,0,Spiriva Handihaler,Ophthalmic,132.55
+1442,80,Female,42,Single,0,Jordan,1,0,Namenda,Ophthalmic,162.87
+1443,1,Male,19,Single,1,Tuvalu,0,0,Benicar,Endocrine,132.25
+1444,98,Male,33,Married,1,Faroe Islands,1,1,Trazodone HCl,None,118.35
+1445,70,Female,28,Married,0,Panama,1,1,Cephalexin,Cardiac,139.63
+1446,15,Male,21,Single,0,Seychelles,1,0,Paroxetine HCl,Cardiac,139.41
+1447,50,Male,16,Common-Law,1,American Samoa,0,1,Fluoxetine HCl,Orthopedic,137.71
+1448,93,Male,28,Single,0,Mauritania,0,1,Albuterol,None,153.90
+1449,92,Male,23,Common-Law,0,Somalia,0,0,Suboxone,Oncology,150.30
+1450,60,Male,27,Married,1,Mauritania,0,1,Zyprexa,Autoimmune,176.65
+1451,59,Female,36,Married,1,French Guiana,1,0,Lyrica,None,165.71
+1452,13,Male,36,Common-Law,1,Honduras,1,0,Lovastatin,Endocrine,151.17
+1453,23,Female,25,Divorced,1,Algeria,0,1,Lexapro,Endocrine,164.19
+1454,93,Female,23,Divorced,1,Sudan,0,1,Endocet,DigestiveSystem,136.71
+1455,3,Female,20,Divorced,0,Romania,1,1,Oxycontin,Oncology,145.72
+1456,93,Female,34,Single,0,Palau,0,0,LevothyroxineSodium,Orthopedic,164.94
+1457,86,Female,23,Single,1,Thailand,1,0,Lisinopril,None,174.39
+1458,25,Male,44,Divorced,1,Reunion,1,1,Atenolol,DigestiveSystem,167.30
+1459,57,Male,22,Single,1,French Southern Territories,0,0,Amoxicillin Trihydrate/Potassium Clavulanate,Orthopedic,154.01
+1460,56,Female,40,Common-Law,0,Australia,1,1,Tricor,None,148.76
+1461,9,Male,22,Single,0,Maldives,0,0,Oxycodone/APAP,None,118.93
+1462,6,Female,36,Married,1,Macao,0,1,Hydrocodone/APAP,Autoimmune,159.04
+1463,94,Female,18,Common-Law,1,Syria,1,1,Lantus Solostar,Oncology,147.07
+1464,6,Male,42,Single,0,Guatemala,1,1,Omeprazole (Rx),Oncology,145.11
+1465,73,Female,39,Single,0,Comoros,1,1,Diazepam,Oncology,161.73
+1466,30,Female,15,Single,1,Zimbabwe,0,0,TriNessa,Neurological,148.69
+1467,86,Male,17,Married,1,Liechtenstein,1,0,Gianvi,None,159.08
+1468,48,Female,17,Single,1,Poland,1,0,Amoxicillin,None,150.28
+1469,80,Male,35,Common-Law,1,Vanuatu,1,1,Tricor,Cardiac,139.91
+1470,50,Male,33,Single,0,United Kingdom (Great Britain),0,1,Warfarin Sodium,Cardiac,149.90
+1471,3,Male,32,Divorced,1,Israel,1,1,Alprazolam,Oncology,141.72
+1472,98,Female,35,Divorced,1,India,1,0,Lyrica,Ophthalmic,163.99
+1473,96,Female,19,Common-Law,1,Tunisia,1,1,Actos,Oncology,132.51
+1474,83,Male,15,Married,1,Equatorial Guinea,1,1,Gianvi,Orthopedic,160.55
+1475,58,Male,19,Single,1,Latvia,1,0,Nexium,Autoimmune,151.76
+1476,31,Female,31,Divorced,1,Nigeria,0,1,Lantus,Autoimmune,154.41
+1477,87,Male,23,Single,1,Suriname,0,1,Warfarin Sodium,Endocrine,159.10
+1478,84,Male,24,Married,1,Jamaica,0,0,Singulair,Endocrine,154.03
+1479,84,Male,40,Married,0,Libya,0,1,Trazodone HCl,Neurological,164.67
+1480,33,Female,39,Common-Law,0,Bermuda,0,0,Methylprednisolone,Orthopedic,137.44
+1481,11,Female,27,Married,1,Saint Martin,1,0,Metoprolol Succinatee,Ophthalmic,143.78
+1482,9,Female,15,Common-Law,1,Chile,0,0,Levothyroxine Sodium,Orthopedic,156.25
+1483,57,Female,25,Divorced,1,Czech Republic,1,1,Meloxicam,Endocrine,164.28
+1484,6,Female,19,Single,0,South Africa,1,0,Proair HFA,Ophthalmic,150.43
+1485,41,Female,41,Common-Law,1,Tunisia,0,1,Doxycycline Hyclate,Autoimmune,148.58
+1486,27,Female,23,Married,1,Christmas Island,1,1,Metoprolol Tartrate,Ophthalmic,154.04
+1487,74,Male,18,Single,0,Malta,1,0,APAP/Codeine,Endocrine,152.47
+1488,14,Female,18,Common-Law,0,Bosnia and Herzegovina,0,1,Levaquin,Orthopedic,163.51
+1489,97,Male,28,Common-Law,1,Micronesia,0,1,Methylprednisolone,Autoimmune,148.62
+1490,54,Male,21,Single,0,Bermuda,1,1,Zyprexa,Autoimmune,157.13
+1491,6,Female,32,Divorced,1,Macao,1,0,Proair HFA,Autoimmune,134.17
+1492,31,Female,43,Single,1,Haiti,0,0,Sulfamethoxazole/Trimethoprim,Ophthalmic,151.31
+1493,20,Male,33,Married,0,Saint Lucia,0,1,Carisoprodol,DigestiveSystem,137.67
+1494,81,Male,45,Single,0,Bahamas,0,0,Diazepam,Autoimmune,148.57
+1495,12,Female,44,Common-Law,1,Antarctica,0,1,Actos,Ophthalmic,141.79
+1496,15,Male,23,Single,0,Poland,0,1,Flovent HFA,DigestiveSystem,172.18
+1497,54,Male,42,Divorced,0,Mongolia,0,1,Sertraline HCl,,136.42
+1498,67,Female,18,Single,1,Spain,0,1,Prednisone,,140.03
+1499,2,Male,27,Married,1,Libya,0,1,Hydrocodone/APAP,Cardiac,166.91
